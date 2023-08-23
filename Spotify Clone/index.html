@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>Library</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of Yellow Claw</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img alt="">
+                    <span class="Songname">Love & War</span>
+                    <span class="songlistplay"><span class="timestamp">3:02
+                            <i id="0" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="">
+                    <span class="Songname">Love & War</span>
+                    <span class="songlistplay"><span i class="timestamp">2:49
+                            <i id="1" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="">
+                    <span class="Songname">Love & War</span>
+                    <span class="songlistplay"><span class="timestamp">3:10
+                            <i id="2" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="">
+                    <span class="Songname">Love & War</span>
+                    <span class="songlistplay"><span class="timestamp">2:30
+                            <i id="3" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="">
+                    <span class="Songname">Love & War</span>
+                    <span class="songlistplay"><span class="timestamp">3:45
+                            <i id="4" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/yclogoinverted.png" alt="">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <ul>
+                <li><img src="img/yclogoani.gif" alt="" width="40px" id="gif"></li>
+                <li>&nbsp;</li>
+                <span id="mastersongname"><li>Yellow Claw Love & War Ft. Yade Lauren</li></span>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1515e5d056.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
